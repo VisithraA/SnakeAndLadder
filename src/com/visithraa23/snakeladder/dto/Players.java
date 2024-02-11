@@ -5,9 +5,9 @@ public class Players {
 	private String name;
 	private int position;
 
-	public Players(String name) {
+	public Players(String name,int position) {
 		this.name = name;
-		this.position = 0;
+		this.position = position;
 	}
 
 	public String getName() {
